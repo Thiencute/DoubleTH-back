@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 import DoubleTH.source.model.User;
 
 @Repository
-public interface UserRepo{
+public interface UserRepo extends MongoRepository<User, Long>{
 	
 }
